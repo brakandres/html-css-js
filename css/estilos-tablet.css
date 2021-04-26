@@ -1,0 +1,106 @@
+/** @format */
+
+.textos-header .h1 {
+	font-size: 3.2vw;
+}
+
+.titulo {
+	font-size: 3.5;
+}
+
+.contenido {
+	width: 300px;
+	height: 100px;
+	padding: 50px;
+	border: 1px solid red;
+}
+
+.contenido-header {
+	height: 550px;
+}
+
+.contenido-header > img {
+	background-size: contain;
+	border: 1px solid blue;
+	position: inherit;
+	top: 19%;
+	right: 5%;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 25vw;
+	width: 25vw;
+}
+
+/* About us */
+
+.articulo {
+	width: 45%;
+}
+
+/* Questions */
+
+.questions {
+	height: 720px;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.questions-form > iframe {
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 60vw;
+	height: 138vw;
+}
+
+/* results */
+
+.conten-results {
+	flex-direction: column-reverse;
+}
+
+.results-text > a {
+	margin-bottom: 60px;
+}
+
+.numbers {
+	width: 100%;
+	/* justify-content: space-between; */
+}
+
+.results-text {
+	width: 100%;
+	margin: 0 10px 20px 10px;
+}
+
+/* Services */
+
+.services {
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+.box-skills {
+	margin: 0 0 40px 0;
+}
+
+.box-skills h4 {
+	width: 500px;
+}
+
+.services > img {
+	width: 400px;
+}
+
+/* Footer */
+
+footer {
+	justify-content: space-evenly;
+}
+
+.partFooter {
+	width: 40%;
+	margin-bottom: 40px;
+}
